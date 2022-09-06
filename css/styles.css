@@ -474,6 +474,10 @@ body {
 	align-items: baseline;
 }
 
+.footer-conect {
+	flex-grow: 1;
+}
+
 .footer-logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -764,10 +768,11 @@ body {
 	color: #757575;
 	display: block;
 	margin-bottom: 4px;
+	cursor: pointer;
 }
 
 .input-field {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .input-wrap {
@@ -803,6 +808,7 @@ body {
 }
 
 .modal-text {
+	display: block;
 	width: 448px;
 	height: 120px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
@@ -829,6 +835,7 @@ body {
 	color: #757575;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .check-text:hover {
@@ -893,6 +900,7 @@ body {
 	border: transparent;
 	display: block;
 	margin: 0 auto;
+	margin-top: 30px;
 }
 
 .is-hidden {
