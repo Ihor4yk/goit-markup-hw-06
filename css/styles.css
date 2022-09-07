@@ -772,7 +772,15 @@ body {
 }
 
 .input-field {
+	margin-bottom: 10px;
+}
+
+.input-field-coment {
 	margin-bottom: 20px;
+}
+
+.input-field-checkbox {
+	margin-bottom: 30px;
 }
 
 .input-wrap {
@@ -900,7 +908,6 @@ body {
 	border: transparent;
 	display: block;
 	margin: 0 auto;
-	margin-top: 30px;
 }
 
 .is-hidden {
